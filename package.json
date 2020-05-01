@@ -9,13 +9,16 @@
     "react-dom": "^16.3.1",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.1",
-    "tachyons": "^4.9.1"
+    "tachyons": "^4.9.1",
+    "snyk": "^1.316.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
   "main": "index.js",
@@ -29,5 +32,6 @@
   "bugs": {
     "url": "https://github.com/zero-to-mastery/travel-guide/issues"
   },
-  "homepage": "https://zero-to-mastery.github.io/travel-guide/"
+  "homepage": "https://zero-to-mastery.github.io/travel-guide/",
+  "snyk": true
 }
